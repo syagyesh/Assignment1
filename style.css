@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header {
+    min-width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mail, .call {
+    padding: 20px;
+}
+
+.contact-head {
+    display: flex;
+}
+
+.navbar {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.nav-links li {
+    list-style: none;
+    padding: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
