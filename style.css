@@ -40,7 +40,7 @@ header {
 }
 
 .header {
-    width: 55vw;
+    width: 60vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@ header {
 /* ------------------------------------- */
 
 .navbar {
-    width: 55vw;
+    width: 60vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -189,13 +189,72 @@ header {
 }
 
 .divi > h2 {
-    font-size: 25px;
+    font-size: 27px;
     line-height: 1.2;
 }
 
 .divi > p {
     padding-top: 1em;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /* --------------------------------------- */
+
+.offers {
+    width: 70vw;
+    display: flex;
+}
+
+.offer-content {
+    margin: 0 2em;
+}
+
+.offer-content > h2 {
+    color: rgba(0, 0, 0, 0.8);
+    margin: 1em 0;
+    font-size: 35px;
+}
+
+.offer-content p {
+    color: #666666;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 1em;
+}
+
+.ocd-pic {
+    width: 10em;
+    height: 4em;
+    border-radius: 50%;
+    background-color: #fd6100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.ocd-picture {
+    width: 1.5em;
+}
+
+.data-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ocd-data > p {
+    padding-top: .5em;
+}
+
+.offer-content-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6em;
+    padding: 3em 0;
+}
+
+.offer-photo {
+    width: 80em;
+}
+
