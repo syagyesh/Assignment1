@@ -1,8 +1,36 @@
+/*----------------- Normal Layout  -------------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn > button {
+    background: #fd5f00;
+	color: #fff;
+	border: none;
+	padding: .5em 1em;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 5%;
+}
+
+img {
+    width: 100%;
+}
+
+/*----------------- HEADER  -------------*/
 
 header {
     display: flex;
@@ -11,32 +39,55 @@ header {
     align-items: center;
 }
 
-.top-header {
-    min-width: 50vw;
+.header {
+    width: 55vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-}
-
-.mail, .call {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .contact-head {
     display: flex;
 }
 
-.navbar {
-    width: 50vw;
+.mail, .call {
     display: flex;
-    justify-content: space-around;
-    background-color: blue;
+    padding: 0 22px;
+}
+
+.mail-icon, .call-icon {
+    padding-top: 12px;
+    padding-right: 12px;
+}
+
+.mail-icon > i, .call-icon > i {
+    color: #fd5f00;
+}
+
+.mail-content > span, .call-content > span {
+    font-weight: 700;
+}
+
+.mail-content > p, .call-content > p {
+    padding-top: 5px;
+}
+
+/* ------------------------------------- */
+
+.navbar {
+    width: 55vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #0d1128;
+    padding: 0 6px;
 }
 
 .nav-links ul {
     display: flex;
     align-items: center;
-    margin: auto;
 }
 
 .nav-links li {
@@ -47,4 +98,63 @@ header {
 .search {
     display: flex;
     align-items: center;
+    padding: 0 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10%;
+    height: 3em;
+    width: 20em;
+}
+
+.search input {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    height: 2em ; 
+}
+
+.search > i {
+    margin-left: 5em;
+}
+
+/*----------------- MAIN  -------------*/
+
+.banner {
+    width: 100vw;
+    height: 40em;
+    background: linear-gradient(45deg, #0d1128 0%, #fd6100 100%);
+    position: relative;
+}
+
+.banner-img img {
+    opacity: 0.5;
+    height: 40em;
+    position: absolute;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.banner-title h2 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.banner-content > p {
+    padding-top: 1em;
+    font-size: 20px;
+}
+
+.banner-btn {
+    padding-top: 1.7em;
+}
+
+.banner-btn button {
+    padding: 15px 25px;
+    border-radius: 9%;
+    font-size: 20px;
 }
