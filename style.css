@@ -158,3 +158,44 @@ header {
     border-radius: 9%;
     font-size: 20px;
 }
+
+/* ----------------------------------------- */
+
+.divider {  
+    display: flex;
+}
+
+.divi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 2em;
+    color: #fff;
+}
+
+.divi > img {
+    color: #fff;
+    width: 3em;
+    padding-bottom: 2em;
+}
+
+.divi:nth-child(2n) {
+    background: #0d1128;
+}
+
+.divi:nth-child(2n+1) {
+    background: #fd5f00;
+}
+
+.divi > h2 {
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.divi > p {
+    padding-top: 1em;
+    font-size: 16px;
+}
+
+/* --------------------------------------- */
