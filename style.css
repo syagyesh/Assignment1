@@ -494,7 +494,85 @@ header {
 
 /* --------------- FOOTER -------------- */
 
+footer {
+    padding-top: 8em;
+    padding-bottom: 8em;
+    background-color: #232323;
+    color: #fff;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3em;
+}
+
+.footer-content > h2 {
+    margin-bottom: 2em;
+}
+
+.footer-pic {
+    width: 5em;
+}
+
+footer i {
+    color: #fff;
+}
+
+.footer-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-data {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.footer-date {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-admin {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-last > button {
+    background: blueviolet;
+	color: #fff;
+	border: none;
+	padding: .5em 1em;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-radius: 5%;
+}
+
+.footer-last {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
 
 
+.footer-down {
+    text-align: center;
+    margin: 8em 0 0 0;
+}
 
 
